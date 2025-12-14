@@ -1,0 +1,21 @@
+    1  ls
+    2  apt update
+    3  ls
+    4  cd linux/
+    5  ls
+    6  make
+    7  apt install make
+    8  make
+    9  make menuconfig
+   10  apt install gcc
+   11  history | vim -
+   12  make menuconfig
+   13  apt install ncurse
+   14  apt install ncurses
+   15  apt install libncurses-dev
+   16  history
+   17  make menuconfig
+   18  make
+   19  apt install bc
+   20  make -j8
+   21  history > dockerRaw.txt

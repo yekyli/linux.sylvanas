@@ -16,7 +16,10 @@
 #include "list.h"
 #include "xalloc.h"
 
+#define _UUID_T
+#define uuid_t int
 #include "modpost.h"
+#undef uuid_t
 #include "devicetable-offsets.h"
 
 /* We use the ELF typedefs for kernel_ulong_t but bite the bullet and
